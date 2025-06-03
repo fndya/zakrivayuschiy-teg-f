@@ -1,13 +1,3 @@
-/* Здесь вы напишете основную часть стилей страницы.
-
-Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
-✦ like-icon — для svg-иконки анимированного сердца
-✦ card__like-button — для кнопки Like рядом с иконкой
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
-*/
-
 .page {
   margin: auto;
   inline-size: clamp(375px, 46vw, 700px);
@@ -327,7 +317,7 @@
   margin-inline-end: 12px;
 }
 
-.save__modal {  
+.save__modal {
   font-family: var(--accent-font);
   padding: 30px;
   text-transform: uppercase;
@@ -361,7 +351,7 @@
   backdrop-filter: brightness(30%);
 }
 
-@media (width<=375px){
+@media (width <= 375px) {
   .header {
     padding-block-start: 120px;
     padding-block-end: 120px;
