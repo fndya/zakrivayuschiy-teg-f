@@ -150,6 +150,7 @@
   width: 39px;
   padding: 0;
   outline: 2px solid transparent;
+  transition: outline 0.3s ease;
 }
 
 .card__icon-button:focus {
